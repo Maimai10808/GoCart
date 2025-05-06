@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		04CD2D032DCA4B3D0056B4C4 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D022DCA4B3D0056B4C4 /* Auth */; };
+		04CD2D052DCA4B3D0056B4C4 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D042DCA4B3D0056B4C4 /* Functions */; };
+		04CD2D072DCA4B3D0056B4C4 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D062DCA4B3D0056B4C4 /* PostgREST */; };
+		04CD2D092DCA4B3D0056B4C4 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D082DCA4B3D0056B4C4 /* Realtime */; };
+		04CD2D0B2DCA4B3D0056B4C4 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D0A2DCA4B3D0056B4C4 /* Storage */; };
+		04CD2D0D2DCA4B3D0056B4C4 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D0C2DCA4B3D0056B4C4 /* Supabase */; };
+		04CD2D102DCA4BC90056B4C4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D0F2DCA4BC90056B4C4 /* FirebaseAuth */; };
+		04CD2D122DCA4BC90056B4C4 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D112DCA4BC90056B4C4 /* FirebaseAuthCombine-Community */; };
+		04CD2D142DCA4BC90056B4C4 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D132DCA4BC90056B4C4 /* FirebaseCore */; };
+		04CD2D162DCA4BC90056B4C4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D152DCA4BC90056B4C4 /* FirebaseDatabase */; };
+		04CD2D182DCA4BC90056B4C4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D172DCA4BC90056B4C4 /* FirebaseFirestore */; };
+		04CD2D1A2DCA4BC90056B4C4 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D192DCA4BC90056B4C4 /* FirebaseFirestoreCombine-Community */; };
+		04CD2D1C2DCA4BC90056B4C4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D1B2DCA4BC90056B4C4 /* FirebaseStorage */; };
+		04CD2D1F2DCA4C150056B4C4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D1E2DCA4C150056B4C4 /* Kingfisher */; };
+		04CD2D222DCA4C3E0056B4C4 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D212DCA4C3E0056B4C4 /* RevenueCat */; };
+		04CD2D242DCA4C3E0056B4C4 /* RevenueCatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 04CD2D232DCA4C3E0056B4C4 /* RevenueCatUI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		04CD2BD32DCA121D0056B4C4 /* GoCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +42,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CD2D162DCA4BC90056B4C4 /* FirebaseDatabase in Frameworks */,
+				04CD2D072DCA4B3D0056B4C4 /* PostgREST in Frameworks */,
+				04CD2D222DCA4C3E0056B4C4 /* RevenueCat in Frameworks */,
+				04CD2D1F2DCA4C150056B4C4 /* Kingfisher in Frameworks */,
+				04CD2D052DCA4B3D0056B4C4 /* Functions in Frameworks */,
+				04CD2D0D2DCA4B3D0056B4C4 /* Supabase in Frameworks */,
+				04CD2D032DCA4B3D0056B4C4 /* Auth in Frameworks */,
+				04CD2D0B2DCA4B3D0056B4C4 /* Storage in Frameworks */,
+				04CD2D102DCA4BC90056B4C4 /* FirebaseAuth in Frameworks */,
+				04CD2D092DCA4B3D0056B4C4 /* Realtime in Frameworks */,
+				04CD2D1C2DCA4BC90056B4C4 /* FirebaseStorage in Frameworks */,
+				04CD2D142DCA4BC90056B4C4 /* FirebaseCore in Frameworks */,
+				04CD2D242DCA4C3E0056B4C4 /* RevenueCatUI in Frameworks */,
+				04CD2D1A2DCA4BC90056B4C4 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				04CD2D182DCA4BC90056B4C4 /* FirebaseFirestore in Frameworks */,
+				04CD2D122DCA4BC90056B4C4 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +100,22 @@
 			);
 			name = GoCart;
 			packageProductDependencies = (
+				04CD2D022DCA4B3D0056B4C4 /* Auth */,
+				04CD2D042DCA4B3D0056B4C4 /* Functions */,
+				04CD2D062DCA4B3D0056B4C4 /* PostgREST */,
+				04CD2D082DCA4B3D0056B4C4 /* Realtime */,
+				04CD2D0A2DCA4B3D0056B4C4 /* Storage */,
+				04CD2D0C2DCA4B3D0056B4C4 /* Supabase */,
+				04CD2D0F2DCA4BC90056B4C4 /* FirebaseAuth */,
+				04CD2D112DCA4BC90056B4C4 /* FirebaseAuthCombine-Community */,
+				04CD2D132DCA4BC90056B4C4 /* FirebaseCore */,
+				04CD2D152DCA4BC90056B4C4 /* FirebaseDatabase */,
+				04CD2D172DCA4BC90056B4C4 /* FirebaseFirestore */,
+				04CD2D192DCA4BC90056B4C4 /* FirebaseFirestoreCombine-Community */,
+				04CD2D1B2DCA4BC90056B4C4 /* FirebaseStorage */,
+				04CD2D1E2DCA4C150056B4C4 /* Kingfisher */,
+				04CD2D212DCA4C3E0056B4C4 /* RevenueCat */,
+				04CD2D232DCA4C3E0056B4C4 /* RevenueCatUI */,
 			);
 			productName = GoCart;
 			productReference = 04CD2BD32DCA121D0056B4C4 /* GoCart.app */;
@@ -94,6 +145,12 @@
 			);
 			mainGroup = 04CD2BCA2DCA121D0056B4C4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+				04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				04CD2D1D2DCA4C150056B4C4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				04CD2D202DCA4C3E0056B4C4 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04CD2BD42DCA121D0056B4C4 /* Products */;
 			projectDirPath = "";
@@ -324,6 +381,124 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+		04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+		04CD2D1D2DCA4C150056B4C4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.2;
+			};
+		};
+		04CD2D202DCA4C3E0056B4C4 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.22.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04CD2D022DCA4B3D0056B4C4 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		04CD2D042DCA4B3D0056B4C4 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		04CD2D062DCA4B3D0056B4C4 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		04CD2D082DCA4B3D0056B4C4 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		04CD2D0A2DCA4B3D0056B4C4 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		04CD2D0C2DCA4B3D0056B4C4 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D012DCA4B3D0056B4C4 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		04CD2D0F2DCA4BC90056B4C4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		04CD2D112DCA4BC90056B4C4 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		04CD2D132DCA4BC90056B4C4 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		04CD2D152DCA4BC90056B4C4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		04CD2D172DCA4BC90056B4C4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		04CD2D192DCA4BC90056B4C4 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		04CD2D1B2DCA4BC90056B4C4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D0E2DCA4BC90056B4C4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		04CD2D1E2DCA4C150056B4C4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D1D2DCA4C150056B4C4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		04CD2D212DCA4C3E0056B4C4 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D202DCA4C3E0056B4C4 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		04CD2D232DCA4C3E0056B4C4 /* RevenueCatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04CD2D202DCA4C3E0056B4C4 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 04CD2BCB2DCA121D0056B4C4 /* Project object */;
 }
