@@ -46,7 +46,7 @@ struct MainTabView: View {
                             Image(systemName: "cart")
                         }.tag(3)
             
-                    AccountView()
+                   ProfileView()
                         .onTapGesture {
                            self.selectedIndex = 3
                          }
